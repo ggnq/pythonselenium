@@ -1,0 +1,2 @@
+2021-11-13 11:54:59,986 - ERROR - test4.py[:8] - error message
+2021-11-13 11:54:59,986 - CRITICAL - test4.py[:9] - critical message
