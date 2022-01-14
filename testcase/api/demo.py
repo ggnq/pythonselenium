@@ -11,8 +11,8 @@ class RunMain:
         r = json.dumps(res, indent=2, sort_keys=True)
         return r
 
-    def send_post(self, url, data):
-        res = requests.post(url=url, data=data).json()
+    def send_post(self, url, data, headers):
+        res = requests.post(url=url, data=data, headers=headers).json()
         r = json.dumps(res, indent=2, sort_keys=True)
         return r
 

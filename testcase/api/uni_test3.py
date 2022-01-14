@@ -3,11 +3,14 @@ import unittest
 import json
 from demo import RunMain3   #导入方法
 class TestMethod(unittest.TestCase):
+
     def setUp(self):
       self.run = RunMain3()   #每次都实例化
       print('执行开始')
+
     def tearDown(self):
        print('执行结束')
+
     def test_01(self):
       url = 'http://10.1.30.118:3200/provider/user/user/login?loginName=15519560000&loginModel=0&password=12345678&loginType=01'
       data = {
