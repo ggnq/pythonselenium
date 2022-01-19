@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 import unittest
 import json
-from demo import RunMain2# 导入方法
+from demo import RunMain# 导入方法
 from lib import HTMLTestRunner_PY3
 
 
 class TestMethod(unittest.TestCase):
     def setUp(self):
-        self.run = RunMain2()  # 每次都实例化
+        self.run = RunMain()  # 每次都实例化
 
     def test_01(self):
         url = 'http://10.1.30.118:3200/provider/user/user/login?loginName=15519560000&loginModel=0&password=12345678&loginType=01'

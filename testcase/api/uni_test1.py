@@ -1,13 +1,13 @@
 #uni_test.pyimport unittest
 
-from demo import RunMain2  #导入类
+from demo import RunMain  #导入类
 import unittest
 
 
 class TestMethod(unittest.TestCase):
 
     def setUp(self):
-        self.run = RunMain2()   #每次都实例化
+        self.run = RunMain()   #每次都实例化
 
     def test_01(self):
         url = 'http://127.0.0.1:8000/login/?username=dajiu&password=123'

@@ -32,5 +32,5 @@ def get_data():
 
 
 if __name__ == '__main__':
-    #login()
-    get_data()
+    login()
+    #get_data()
